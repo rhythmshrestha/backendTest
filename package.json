@@ -1,0 +1,16 @@
+{
+  "name": "backendtest",
+  "version": "1.0.0",
+  "description": "testing backend i learned from youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "learning"
+  ],
+  "author": "Rhythm Shrestha",
+  "license": "ISC"
+}
