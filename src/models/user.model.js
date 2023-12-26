@@ -53,7 +53,7 @@ userSchema.pre("save", async function (next) {
   // donot use arrow function here
   if (!this.isModified("password")) return next(); // to check if the password is modified or not
   //logic to help encrypt the password only if the password is modified
-  this.password = bcrypt.hash(this.password, 10);
+  this.password = await bcrypt.hash(this.password, 10);
   next();
 });
 
